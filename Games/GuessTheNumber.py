@@ -8,6 +8,7 @@ class GuessingGame(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
 
+
     # Guessing Game
     @commands.command()
     async def guess(self, ctx, x=None, y=None):
